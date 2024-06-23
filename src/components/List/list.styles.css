@@ -1,0 +1,136 @@
+.list{
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: -10rem;
+    padding: 230px 60px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+header h1{
+    color:rgb(0, 0, 0);
+    font-size: 2.5rem;
+    width: 90%;
+    padding-right: 15px;
+    margin-top: -150px;
+    margin-left: -100px;
+}
+
+header h2{
+    color: #000000;
+    font-size: 2.25rem;
+    margin-top: -550px;
+    margin-right: -680px;
+    padding-left: 140px;
+    width: 45%;
+}
+
+p{
+    color:#000000;
+    margin-top: 90px;
+    margin-left: -965px;
+    width: 190%;
+}
+
+.links{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    font-size: 15px;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    margin-top: 450px; 
+    margin-left: -1350px;
+    width: 145%;
+    
+}
+
+
+.input-container{
+    display: flex;
+    gap: 0.5rem;
+    align-items: right;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-top: -400px;
+    margin-right: 4dvi;
+}
+
+input{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    border: 0.5 solid #5dcfe9;
+    padding: 15px 28px;
+    border-radius: 8px;
+}
+
+button{
+    font-weight: 600;
+    border-radius: 8px; border: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.add-task{
+    background-color: #4fcde9;
+}
+
+.remove-task{
+    background-color: rgb(248, 0, 0);
+}
+
+main{
+    width: 61%;
+    margin-top: -35%;
+    padding-left: 600px;
+    
+   
+   }
+   
+   
+   ul {
+    list-style: none;
+   }
+   
+   
+   li {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin: 40px 200px;
+    border-bottom: 0.7px solid #695757;
+    padding: 1rem 0;
+    margin-top: -10px;
+    
+   }
+   
+   
+   main ul li div {
+    display: flex;
+    align-items: center;
+    gap: 980px;
+    outline: 0;
+   }
+   
+   
+   ul li div p {
+    font-size: 1.2rem;
+    color: #131111;
+    margin-top: -310%;
+    margin-bottom: -300%;
+   }
+   
+
+   .completed p {
+    text-decoration:line-through;
+    opacity: 0.6;   
+   }
+   
